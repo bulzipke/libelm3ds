@@ -26,7 +26,7 @@ INCLUDES	:=	include
 #---------------------------------------------------------------------------------
 ARCH	:=	-marm
 
-CFLAGS	:=	-g -Wall -Os -std=c11\
+CFLAGS	:=	-g -Wall -Os -std=gnu11 \
 		-march=armv5te -mtune=arm946e-s \
 		-fomit-frame-pointer -ffast-math \
 		-ffunction-sections -fdata-sections \
