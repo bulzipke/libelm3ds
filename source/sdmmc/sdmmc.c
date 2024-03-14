@@ -42,8 +42,6 @@
 #define TRUE 1
 #define FALSE 0
 
-#define bool int
-
 #define NO_INLINE __attribute__ ((noinline))
 
 #define RGB(r,g,b) (r<<24|b<<16|g<<8|r)
